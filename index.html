@@ -3,16 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GiorgAI - Innovative AI solutions designed specifically for the Georgian language">
     <title>GiorgAI - Georgian Language AI Solutions</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <h1>GiorgAI</h1>
+            <div class="logo-container">
+                <h1>Giorg<span class="highlight">AI</span></h1>
+            </div>
             <p class="tagline">AI Solutions for Georgian Language</p>
             <nav>
-                <ul>
+                <div class="hamburger">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <ul class="nav-links">
                     <li><a href="#about">About</a></li>
                     <li><a href="#products">Products</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -22,34 +36,78 @@
     </header>
 
     <section id="hero">
+        <div class="hero-overlay"></div>
         <div class="container">
-            <h2>Advancing Georgian Language AI</h2>
-            <p>Innovative AI solutions designed specifically for the Georgian language</p>
+            <div class="hero-content">
+                <h2>Advancing Georgian Language AI</h2>
+                <p>Innovative AI solutions designed specifically for the unique structure and complexity of the Georgian language</p>
+                <a href="#products" class="btn btn-primary">Explore Our Solutions</a>
+            </div>
         </div>
     </section>
 
     <section id="about">
         <div class="container">
-            <h2>About Us</h2>
-            <p>GiorgAI is dedicated to developing cutting-edge AI tools that understand and process the Georgian language. Our team combines expertise in linguistics, machine learning, and software development.</p>
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text fade-in">
+                    <p>GiorgAI is dedicated to developing cutting-edge AI tools that understand and process the Georgian language. Our team combines expertise in linguistics, machine learning, and software development to create solutions that respect the unique characteristics of Georgian.</p>
+                    <p>With a deep appreciation for Georgia's rich linguistic heritage, we're leveraging modern AI technology to preserve, promote, and enhance communication in Georgian language contexts.</p>
+                </div>
+                <div class="about-features">
+                    <div class="feature fade-in">
+                        <i class="fas fa-brain"></i>
+                        <h3>Expert Team</h3>
+                        <p>Linguists and AI specialists working together</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <i class="fas fa-language"></i>
+                        <h3>Language Focus</h3>
+                        <p>Specialized in Georgian language nuances</p>
+                    </div>
+                    <div class="feature fade-in">
+                        <i class="fas fa-code"></i>
+                        <h3>Custom Solutions</h3>
+                        <p>Tailored AI models for specific needs</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="products">
         <div class="container">
-            <h2>Our Products</h2>
+            <div class="section-header">
+                <h2>Our Products</h2>
+                <div class="underline"></div>
+            </div>
             <div class="product-grid">
-                <div class="product-card">
+                <div class="product-card fade-in">
+                    <div class="product-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
                     <h3>Georgian NLP</h3>
-                    <p>Natural language processing tools specifically designed for Georgian language analysis.</p>
+                    <p>Natural language processing tools specifically designed for Georgian language analysis, including morphological analysis, POS tagging, and sentiment analysis.</p>
+                    <a href="#contact" class="btn btn-secondary">Learn More</a>
                 </div>
-                <div class="product-card">
+                <div class="product-card fade-in">
+                    <div class="product-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
                     <h3>Translation AI</h3>
-                    <p>Advanced machine translation solutions for Georgian to various languages.</p>
+                    <p>Advanced machine translation solutions for Georgian to various languages, preserving the nuances and context of this complex language.</p>
+                    <a href="#contact" class="btn btn-secondary">Learn More</a>
                 </div>
-                <div class="product-card">
+                <div class="product-card fade-in">
+                    <div class="product-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
                     <h3>Voice Recognition</h3>
-                    <p>Voice recognition and speech-to-text optimized for Georgian speakers.</p>
+                    <p>Voice recognition and speech-to-text optimized for Georgian speakers, handling unique phonetic aspects of the language with high accuracy.</p>
+                    <a href="#contact" class="btn btn-secondary">Learn More</a>
                 </div>
             </div>
         </div>
@@ -57,17 +115,51 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Contact Us</h2>
-            <p>Interested in our solutions? Reach out to us:</p>
-            <p>Email: <a href="mailto:contact@example.com">contact@example.com</a></p>
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-content-centered">
+                <div class="contact-info fade-in">
+                    <p>Interested in our solutions? Reach out to us directly:</p>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:info@giorgai.com">info@giorgai.com</a>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Tbilisi, Georgia</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2025 GiorgAI. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Giorg<span class="highlight">AI</span></h3>
+                </div>
+                <div class="footer-links">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 GiorgAI. All rights reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
-
